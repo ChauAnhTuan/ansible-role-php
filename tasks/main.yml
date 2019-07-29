@@ -23,10 +23,10 @@
     php_conf_paths: "{{ __php_conf_paths }}"
   when: php_conf_paths is not defined
 
-# - name: Define php_extension_conf_paths.
-#   set_fact:
-#     php_extension_conf_paths: "{{ __php_extension_conf_paths }}"
-#   when: php_extension_conf_paths is not defined
+- name: Define php_extension_conf_paths.
+  set_fact:
+    php_extension_conf_paths: "{{ __php_extension_conf_paths }}"
+  when: php_extension_conf_paths is not defined
 
 # - name: Define php_apc_conf_filename.
 #   set_fact:
