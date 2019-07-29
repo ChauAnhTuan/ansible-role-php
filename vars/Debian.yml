@@ -15,7 +15,7 @@ __php_packages:
   - php-sqlite3
   - php-apcu
   - php-mysql
-  - php{{ php_default_version_debian }}-xml-util
+  - php-xml-util
   - php{{ php_default_version_debian }}-bcmath
   - php{{ php_default_version_debian }}-net-socket
   - php{{ php_default_version_debian }}-gettext
