@@ -18,7 +18,7 @@ __php_packages:
   - php{{ php_default_version_debian }}-xml-util
   - php{{ php_default_version_debian }}-bcmath
   - php{{ php_default_version_debian }}-net-socket
-  - php{{ php_default_version_debian }}-gettext 
+  - php{{ php_default_version_debian }}-gettext
 
 __php_webserver_daemon: "apache2"
 
